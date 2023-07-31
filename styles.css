@@ -32,33 +32,67 @@ div{
 
 }
 
-#n1{
-    background-color: hsl(0, 0%, 100%);
+#n1-outline{
+    background-color:white;
+    color: hsl(25, 97%, 53%);
     height: 4rem;
     width: 4rem;
     border-radius: 3rem;
     margin-left: 2rem;
     margin-bottom: -3rem;
+    cursor: pointer;
+    transition: all .3s ease;
 }
-#n2{
+#n1-outline:hover{
+    background-color:  hsl(25, 97%, 53%) ;
+    color:white;
+    
+}
+#n2-outline{
     height: 4rem;
     width: 4rem;
     border-radius: 3rem; 
+    cursor: pointer;
+    transition: all .3s ease;
 }
-#n3{
+#n2-outline:hover{
+    background-color:  hsl(25, 97%, 53%) ;
+    color:white;
+}
+
+
+#n3-outline{
     height: 4rem;
     width: 4rem;
     border-radius: 3rem;
 }
-#n4{
-    height: 4rem;
-    width: 4rem;
-    border-radius: 3rem;
+#n3-outline:hover{
+    background-color:  hsl(25, 97%, 53%) ;
+    color:white;
 }
-#n5{
+
+#n4-outline{
     height: 4rem;
     width: 4rem;
     border-radius: 3rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+#n4-outline:hover{
+    background-color:  hsl(25, 97%, 53%) ;
+    color:white;
+}
+
+#n5-outline{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+#n5-outline:hover{
+    background-color:  hsl(25, 97%, 53%) ;
+    color:white;
 }
 #botao{
     background-color: hsl(25, 97%, 53%) ;
@@ -67,8 +101,6 @@ div{
     height: 3rem;
     border-radius: 2rem;
     margin-top: 1rem;
-    box-shadow: none;
-
 }
 #submit{
     color: hsl(0, 0%, 100%);
@@ -79,6 +111,9 @@ div{
 }
 .attribution{
     margin-top: 1rem;
+}
+a{
+    text-decoration:none;
 }
 
 
